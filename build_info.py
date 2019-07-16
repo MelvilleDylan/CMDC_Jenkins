@@ -70,9 +70,9 @@ if __name__ == '__main__':
 class Build:
     def __init__(self, job, number):
         self.number = number
-        self.url = job.url+'/'+str(number)
-        self.log_url = self.url+'/consoleFull'
-        self.full_log = self.scrape_log()
+        self.url = job.url+str(number)+'/'
+        self.log_url = self.url+'consoleFull'
+        #self.full_log = self.scrape_log()
         
     def scrape_log(self):
         #Scrapes the self.log_url web address to get the build's full console
@@ -102,25 +102,23 @@ class Job:
         self.url = url
         self.build_count = int(number)
         self.health_report = {'Description':health_report_desc,'Score':health_report_score}
-        #self.builds = self.generate_builds()
-        self.builds = self.FAKE_TEMPORARY_GENERATE_BUILDS()
-        self.key_build_nums = {'Successful':last_successful, 'Stable':last_stable,'Unsuccessful':last_unsuccessful,'Failed':last_failed,'Complete':last_complete}
-        self.key_build_objs = dict()
+        self.builds = self.generate_builds()
+        self.key_builds = self.generate_key_build_obj(last_successful,last_stable,last_unsuccessful,last_failed,last_complete)
 
     def generate_builds(self):
-        builds = [Build(self, num) for num in range(1,self.build_count+1)]
+        builds = [Build(self, int(num)) for num in range(1,self.build_count+1)]
         builds.insert(0, self.build_count)
         return builds
     
-    def key_build_obj(self):
+    def generate_key_build_obj(self,last_successful,last_stable,last_unsuccessful,last_failed,last_complete):
         #Since the constructor only gets the numbers for each of the key builds
         # this function takes that dictionary and generates a new dictionary
         # which has the same keys, but the values are the build objects the
         # numbers are referencing
-        keys = self.key_build_nums.keys
-        key_nums = [self.key_build_nums[index] for index in keys]
+        KEYS = ['Successful','Stable','Unsuccessful','Failed','Completed']
+        key_nums = [int(num) for num in [last_successful,last_stable,last_unsuccessful,last_failed,last_complete]]
         build_objects = [self.builds[index] for index in key_nums]
-        tuples_list = zip(keys,build_objects)
+        tuples_list = zip(KEYS,build_objects)
         return dict(tuples_list)
     
     def FAKE_TEMPORARY_GENERATE_BUILDS(self):
