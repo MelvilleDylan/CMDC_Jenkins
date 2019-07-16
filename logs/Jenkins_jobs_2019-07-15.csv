@@ -1,0 +1,38 @@
+description,name,url,buildable,color,buildsCount,lastCompletedBuildNum,lastSuccessfulBuildNum,lastStableBuildNum,lastFailedBuildNum,lastUnsuccessfulBuildNum,healthReportDescription,healthReportScore
+Brampton Site Survey Tablet - 01,BRM10S-BRMSUR01,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR01/,False,blue,52.0,52.0,52.0,52.0,48.0,48.0,Build stability: 1 out of the last 5 builds failed.,80.0
+Brampton Site Survey Tablet - 02,BRM10S-BRMSUR02,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR02/,False,blue,20.0,20.0,20.0,20.0,19.0,19.0,Build stability: 1 out of the last 2 builds failed.,50.0
+Brampton Survey Tablet - 03,BRM10S-BRMSUR03,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR03/,False,blue,82.0,82.0,82.0,82.0,59.0,59.0,Build stability: No recent builds failed.,100.0
+Brampton Site Survey Tablet - 04,BRM10S-BRMSUR04,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR04/,False,notbuilt,,,,,,,,
+Site Survey Tablet - 05,BRM10S-BRMSUR05,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR05/,False,red,80.0,80.0,78.0,78.0,80.0,80.0,Build stability: All recent builds failed.,0.0
+Brampton Site Survey tablet - 06,BRM10S-BRMSUR06,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR06/,False,blue,74.0,74.0,74.0,74.0,53.0,53.0,Build stability: No recent builds failed.,100.0
+Brampton Site Survey Tablet - 07,BRM10S-BRMSUR07,http://jenkins.bloodservices.ca/job/BRM10S-BRMSUR07/,False,red,33.0,33.0,30.0,30.0,33.0,33.0,Build stability: All recent builds failed.,0.0
+Calgary Site Survey Tablet - 01,CAL10S-CALSUR01,http://jenkins.bloodservices.ca/job/CAL10S-CALSUR01/,False,blue,4.0,4.0,4.0,4.0,1.0,1.0,Build stability: 1 out of the last 4 builds failed.,75.0
+Calgary Site Survey Tablet - 02,CAL10S-CALSUR02,http://jenkins.bloodservices.ca/job/CAL10S-CALSUR02/,False,blue,22.0,22.0,22.0,22.0,18.0,18.0,Build stability: 1 out of the last 5 builds failed.,80.0
+Dartmouth Survey Tablet - 01,DAR10S-DARSUR01,http://jenkins.bloodservices.ca/job/DAR10S-DARSUR01/,False,notbuilt,,,,,,,,
+Dartmouth Survey tablet - 02,DAR10S-DARSUR02,http://jenkins.bloodservices.ca/job/DAR10S-DARSUR02/,False,red,57.0,57.0,56.0,56.0,57.0,57.0,Build stability: All recent builds failed.,0.0
+Edmonton Site Survey Tablet - 01,EDM10S-EDMSUR01,http://jenkins.bloodservices.ca/job/EDM10S-EDMSUR01/,False,red,2.0,2.0,,,2.0,2.0,Build stability: All recent builds failed.,0.0
+Edmonton Survey tablet - 02,EDM10S-EDMSUR02,http://jenkins.bloodservices.ca/job/EDM10S-EDMSUR02/,False,notbuilt,,,,,,,,
+London Site Survey Tablet - 01,LON10S-LONSUR01,http://jenkins.bloodservices.ca/job/LON10S-LONSUR01/,False,red,12.0,12.0,,,12.0,12.0,Build stability: All recent builds failed.,0.0
+London Site Survey Tablet - 02,LON10S-LONSUR02,http://jenkins.bloodservices.ca/job/LON10S-LONSUR02/,False,notbuilt,,,,,,,,
+London Site Survey Tablet - 03,LON10S-LONSUR03,http://jenkins.bloodservices.ca/job/LON10S-LONSUR03/,False,blue,18.0,18.0,18.0,18.0,16.0,16.0,Build stability: 1 out of the last 3 builds failed.,66.0
+London Site Survey tablet - 04,LON10S-LONSUR04,http://jenkins.bloodservices.ca/job/LON10S-LONSUR04/,False,blue,23.0,23.0,23.0,23.0,12.0,12.0,Build stability: No recent builds failed.,100.0
+Newfoundland Site Survey Tablet - 01,NEW10S-NEWSUR01,http://jenkins.bloodservices.ca/job/NEW10S-NEWSUR01/,False,blue,3.0,3.0,3.0,3.0,1.0,1.0,Build stability: 1 out of the last 3 builds failed.,66.0
+Newfoundland Survey tablet - 02,NEW10S-NEWSUR02,http://jenkins.bloodservices.ca/job/NEW10S-NEWSUR02/,False,blue,16.0,16.0,16.0,16.0,13.0,13.0,Build stability: 1 out of the last 4 builds failed.,75.0
+Ottawa Site Survey Tablet - 01,OTT10S-OTTSUR01,http://jenkins.bloodservices.ca/job/OTT10S-OTTSUR01/,False,blue,188.0,188.0,188.0,188.0,181.0,181.0,Build stability: No recent builds failed.,100.0
+Ottawa Survey Tablet - 02,OTT10S-OTTSUR02,http://jenkins.bloodservices.ca/job/OTT10S-OTTSUR02/,False,red,11.0,11.0,,,11.0,11.0,Build stability: All recent builds failed.,0.0
+Ottawa survey tablet - 03,OTT10S-OTTSUR03,http://jenkins.bloodservices.ca/job/OTT10S-OTTSUR03/,False,notbuilt,,,,,,,,
+Ottawa Survey tablet - 04,OTT10S-OTTSUR04,http://jenkins.bloodservices.ca/job/OTT10S-OTTSUR04/,False,blue,8.0,8.0,8.0,8.0,,,Build stability: No recent builds failed.,100.0
+Regina Site Survey Tablet - 01,REG10S-REGSUR01,http://jenkins.bloodservices.ca/job/REG10S-REGSUR01/,False,notbuilt,,,,,,,,
+Regina Survey Tablet - 02,REG10S-REGSUR02,http://jenkins.bloodservices.ca/job/REG10S-REGSUR02/,False,blue,41.0,41.0,41.0,41.0,35.0,35.0,Build stability: No recent builds failed.,100.0
+NewBrunswick Site Survey Tablet - 01,SAI10S-SAISUR01,http://jenkins.bloodservices.ca/job/SAI10S-SAISUR01/,False,blue,15.0,15.0,15.0,15.0,3.0,3.0,Build stability: No recent builds failed.,100.0
+NewBrunswick Survey tablet - 02,SAI10S-SAISUR02,http://jenkins.bloodservices.ca/job/SAI10S-SAISUR02/,False,notbuilt,,,,,,,,
+Sudbury Site Survey Tablet - 01,SUD10S-SUDSUR01,http://jenkins.bloodservices.ca/job/SUD10S-SUDSUR01/,False,red,11.0,11.0,6.0,6.0,11.0,11.0,Build stability: All recent builds failed.,0.0
+Sudbury Survey tablet - 02,SUD10S-SUDSUR02,http://jenkins.bloodservices.ca/job/SUD10S-SUDSUR02/,False,notbuilt,,,,,,,,
+Toronto Site Survey Tablet - 01,TOR10S-TORSUR01,http://jenkins.bloodservices.ca/job/TOR10S-TORSUR01/,False,notbuilt,,,,,,,,
+Toronto Survey tablet - 02,TOR10S-TORSUR02,http://jenkins.bloodservices.ca/job/TOR10S-TORSUR02/,False,blue,23.0,23.0,23.0,23.0,16.0,16.0,Build stability: No recent builds failed.,100.0
+Vancouver Site Survey Tablet - 01,VAN10S-VANSUR01,http://jenkins.bloodservices.ca/job/VAN10S-VANSUR01/,False,blue,1.0,1.0,1.0,1.0,,,Build stability: No recent builds failed.,100.0
+Vancouver Site Survey Tablet - 02,VAN10S-VANSUR02,http://jenkins.bloodservices.ca/job/VAN10S-VANSUR02/,False,blue,2.0,2.0,2.0,2.0,,,Build stability: No recent builds failed.,100.0
+Vancouver Survey Tablet - 03,VAN10S-VANSUR03,http://jenkins.bloodservices.ca/job/VAN10S-VANSUR03/,False,notbuilt,,,,,,,,
+Vancouver Survey Tablet - 04,VAN10S-VANSUR04,http://jenkins.bloodservices.ca/job/VAN10S-VANSUR04/,False,notbuilt,,,,,,,,
+Winnipeg Site Survey Tablet - 01,WIN10S-WINSUR01,http://jenkins.bloodservices.ca/job/WIN10S-WINSUR01/,False,blue,3.0,3.0,3.0,3.0,2.0,2.0,Build stability: 1 out of the last 2 builds failed.,50.0
+Winnipeg Survey Tablet - 02,WIN10S-WINSUR02,http://jenkins.bloodservices.ca/job/WIN10S-WINSUR02/,False,blue,53.0,53.0,53.0,53.0,34.0,34.0,Build stability: No recent builds failed.,100.0
