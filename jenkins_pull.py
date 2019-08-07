@@ -34,9 +34,9 @@ def get_potentially_null_property(job,args):
         try:
             obj = obj[arg]
         except IndexError:
-            return None
+            return 0
         except TypeError:
-            return None
+            return 0
     return obj
     
 def clean_jenkins_output(job_list):
@@ -86,8 +86,9 @@ def full_process():
     clean_list = clean_jenkins_output(jl)
     data_frame = pandas.DataFrame(clean_list)
     user_profile = os.environ['USERPROFILE']
-    filepath = user_profile + '\\logs\\Jenkins_job_'+ str(TODAY) +'.csv'
+    filepath = user_profile + '\\Documents\\Projects\\Jenkins\\logs\\Jenkins_jobs_'+ str(TODAY) +'.csv'
     export_csv = data_frame.to_csv(filepath, index = None, header=True) #Don't forget to add '.csv' at the end of the path
+    print("Completed: " + filepath)
     
     return export_csv
 if __name__ == '__main__':
