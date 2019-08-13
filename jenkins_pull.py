@@ -6,8 +6,6 @@ Created on Fri Jul  5 11:43:55 2019
 """
 
 import jenkins
-import lxml
-import requests
 import pandas
 import os
 import datetime
